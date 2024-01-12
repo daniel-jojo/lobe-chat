@@ -1,3 +1,3 @@
 {
-  "installCommand": "pnpm i"
+  "installCommand": "npx bun@1.0.22 install"
 }
