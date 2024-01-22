@@ -4,6 +4,7 @@ import { MessageSquarePlus } from 'lucide-react';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
+import JoJoLogo from 'src/components/JoJoVentures/Logo';
 
 import { DESKTOP_HEADER_ICON_SIZE } from '@/const/layoutTokens';
 import { useSessionStore } from '@/store/session';
@@ -27,7 +28,8 @@ const Header = memo(() => {
 
   return (
     <Flexbox className={styles.top} gap={16} padding={16}>
-      <Flexbox distribution={'space-between'} horizontal>
+      <Flexbox align={'center'} distribution={'space-between'} horizontal>
+        <JoJoLogo height="64" width="64" /> X
         <Logo className={styles.logo} size={36} type={'text'} />
         <ActionIcon
           icon={MessageSquarePlus}

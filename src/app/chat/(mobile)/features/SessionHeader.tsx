@@ -3,6 +3,7 @@ import { createStyles } from 'antd-style';
 import { MessageSquarePlus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';
+import JoJoLogo from 'src/components/JoJoVentures/Logo';
 
 import { MOBILE_HEADER_ICON_SIZE } from '@/const/layoutTokens';
 import { useGlobalStore } from '@/store/global';
@@ -24,7 +25,7 @@ const Header = memo(() => {
   const avatar = useGlobalStore((st) => st.settings.avatar);
   return (
     <MobileNavBar
-      center={<Logo type={'text'} />}
+      center={<JoJoLogo height="36" width="36" />}
       left={
         <div onClick={() => router.push('/settings')} style={{ marginLeft: 8 }}>
           {avatar ? <Avatar avatar={avatar} size={28} /> : <Logo size={28} />}
