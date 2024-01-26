@@ -15,7 +15,7 @@ export const DEFAULT_BASE_SETTINGS: GlobalBaseSettings = {
   fontSize: 14,
   language: 'auto',
   password: '',
-  themeMode: 'auto',
+  themeMode: 'dark',
 };
 
 export const DEFAUTT_AGENT_TTS_CONFIG: LobeAgentTTSConfig = {

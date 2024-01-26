@@ -25,7 +25,9 @@ export const createChatCompletion = async ({ payload, openai }: CreateChatComple
         ...params,
         stream: true,
       } as unknown as OpenAI.ChatCompletionCreateParamsStreaming,
-      { headers: { Accept: '*/*' } },
+      {
+        headers: { 'Accept': '*/*', 'HTTP-Referer': 'chat.jojo.ventures', 'X-Title': 'JoJo Chat' },
+      },
     );
     const stream = OpenAIStream(response);
     return new StreamingTextResponse(stream);

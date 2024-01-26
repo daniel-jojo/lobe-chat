@@ -15,6 +15,15 @@ export enum LanguageModel {
   GPT4_32K = 'gpt-4-32k',
   GPT4_PREVIEW = 'gpt-4-1106-preview',
   GPT4_VISION_PREVIEW = 'gpt-4-vision-preview',
+  google_gemini_pro_vision = 'google/gemini-pro-vision',
+  gryphe_mythomax_l2_13b = 'gryphe/mythomax-l2-13b',
+  mistralai_mistral_medium = 'mistralai/mistral-medium',
+  /**
+   * Custom Models (OpenRouter)
+   */
+  openai_gpt_3_5_turbo_1106 = 'openai/gpt-3.5-turbo-1106',
+  openai_gpt_4_1106_preview = 'openai/gpt-4-1106-preview',
+  openai_gpt_4_vision_preview = 'openai/gpt-4-vision-preview',
 }
 
 // 语言模型的设置参数

@@ -29,4 +29,10 @@ export const ModelTokens: Record<LanguageModel, number> = {
   [LanguageModel.GPT4_PREVIEW]: 128_000,
   [LanguageModel.GPT4_VISION_PREVIEW]: 128_000,
   [LanguageModel.GPT4_32K]: 32_768,
+  [LanguageModel.google_gemini_pro_vision]: 65_536,
+  [LanguageModel.openai_gpt_3_5_turbo_1106]: 16_385,
+  [LanguageModel.openai_gpt_4_1106_preview]: 128_000,
+  [LanguageModel.openai_gpt_4_vision_preview]: 128_000,
+  [LanguageModel.gryphe_mythomax_l2_13b]: 4096,
+  [LanguageModel.mistralai_mistral_medium]: 32_000,
 };
