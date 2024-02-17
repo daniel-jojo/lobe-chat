@@ -2,6 +2,106 @@
 
 # Changelog
 
+### [Version 0.122.9](https://github.com/lobehub/lobe-chat/compare/v0.122.8...v0.122.9)
+
+<sup>Released on **2024-02-05**</sup>
+
+#### 💄 Styles
+
+- **settings**: Improve LLM connection checker style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **settings**: Improve LLM connection checker style, closes [#1222](https://github.com/lobehub/lobe-chat/issues/1222) ([8c349a1](https://github.com/lobehub/lobe-chat/commit/8c349a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.122.8](https://github.com/lobehub/lobe-chat/compare/v0.122.7...v0.122.8)
+
+<sup>Released on **2024-02-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Allow user to add agent without redirection.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Allow user to add agent without redirection, closes [#1199](https://github.com/lobehub/lobe-chat/issues/1199) ([6577ca1](https://github.com/lobehub/lobe-chat/commit/6577ca1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.122.7](https://github.com/lobehub/lobe-chat/compare/v0.122.6...v0.122.7)
+
+<sup>Released on **2024-02-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update the gpt-4-1106-preview model to gpt-4-0125-preview.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update the gpt-4-1106-preview model to gpt-4-0125-preview, closes [#1210](https://github.com/lobehub/lobe-chat/issues/1210) ([fe623e1](https://github.com/lobehub/lobe-chat/commit/fe623e1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.122.6](https://github.com/lobehub/lobe-chat/compare/v0.122.5...v0.122.6)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### 🐛 Bug Fixes
+
+- **check**: The state of connectivity can only be singular.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **check**: The state of connectivity can only be singular, closes [#1201](https://github.com/lobehub/lobe-chat/issues/1201) ([c412baf](https://github.com/lobehub/lobe-chat/commit/c412baf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 0.122.5](https://github.com/lobehub/lobe-chat/compare/v0.122.4...v0.122.5)
 
 <sup>Released on **2024-01-31**</sup>
