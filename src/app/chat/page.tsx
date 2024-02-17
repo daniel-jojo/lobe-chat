@@ -9,6 +9,7 @@ const Page = () => {
   const mobile = isMobileDevice();
 
   const Page = mobile ? MobilePage : DesktopPage;
+  // throw new Error('test');
 
   return (
     <>
