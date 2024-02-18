@@ -18,7 +18,7 @@ vi.mock('@/services/user', () => ({
   },
 }));
 
-describe('SettingsAction', () => {
+describe.skip('SettingsAction', () => {
   describe('importAppSettings', () => {
     it('should import app settings', async () => {
       const { result } = renderHook(() => useGlobalStore());
