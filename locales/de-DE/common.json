@@ -1,4 +1,13 @@
 {
+  "ModelSelect": {
+    "featureTag": {
+      "custom": "Benutzerdefiniertes Modell, das standardmäßig sowohl Funktionsaufrufe als auch visuelle Erkennung unterstützt. Bitte überprüfen Sie die Verfügbarkeit dieser Fähigkeiten basierend auf den tatsächlichen Anforderungen.",
+      "file": "Dieses Modell unterstützt das Hochladen von Dateien zur Erkennung.",
+      "functionCall": "Dieses Modell unterstützt Funktionsaufrufe (Function Call).",
+      "tokens": "Dieses Modell unterstützt maximal {{tokens}} Tokens pro einzelner Sitzung.",
+      "vision": "Dieses Modell unterstützt visuelle Erkennung."
+    }
+  },
   "about": "Über",
   "advanceSettings": "Erweiterte Einstellungen",
   "agentMaxToken": "Maximale Sitzungslänge",
@@ -18,6 +27,7 @@
   "defaultAgent": "Standardassistent",
   "defaultSession": "Standardassistent",
   "delete": "Löschen",
+  "document": "Dokumentation",
   "duplicate": "Duplikat erstellen",
   "edit": "Bearbeiten",
   "export": "Exportieren",
@@ -89,7 +99,18 @@
     "zh-TW": "Chinesisch (traditionell)"
   },
   "layoutInitializing": "Layout wird geladen...",
+  "modelProvider": {
+    "azure": "Azure",
+    "bedrock": "AWS Bedrock",
+    "google": "Google",
+    "moonshot": "Moonshot KI",
+    "ollama": "Ollama",
+    "oneapi": "One API",
+    "openai": "OpenAI",
+    "zhipu": "Zhipu AI"
+  },
   "noDescription": "Keine Beschreibung vorhanden",
+  "oauth": "SSO-Anmeldung",
   "ok": "OK",
   "password": "Passwort",
   "pin": "Anheften",

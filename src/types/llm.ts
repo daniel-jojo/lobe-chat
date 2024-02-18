@@ -18,14 +18,48 @@ export enum LanguageModel {
 
   anthropic_claude_2_0 = 'anthropic/claude-2.0',
   // google_gemini_pro_vision = 'google/gemini-pro-vision',
-// gryphe_mythomax_l2_13b = 'gryphe/mythomax-l2-13b',
-/**
+  // gryphe_mythomax_l2_13b = 'gryphe/mythomax-l2-13b',
+  /**
    * Custom Models (OpenRouter)
    */
   mistralai_mistral_medium = 'mistralai/mistral-medium',
   openai_gpt_3_5_turbo_0125 = 'openai/gpt-3.5-turbo-0125',
   openai_gpt_4_0125_preview = 'openai/gpt-4-0125-preview',
   openai_gpt_4_vision_preview = 'openai/gpt-4-vision-preview',
+}
+
+export interface ChatModelCard {
+  description?: string;
+  displayName?: string;
+  /**
+   * whether model supports file upload
+   */
+  files?: boolean;
+  /**
+   * whether model supports function call
+   */
+  functionCall?: boolean;
+  hidden?: boolean;
+  id: string;
+  /**
+   * whether model is custom
+   */
+  isCustom?: boolean;
+  /**
+   * whether model is legacy (deprecated but not removed yet)
+   */
+  legacy?: boolean;
+  tokens?: number;
+  /**
+   *  whether model supports vision
+   */
+  vision?: boolean;
+}
+
+export interface ModelProviderCard {
+  chatModels: ChatModelCard[];
+  enabled?: boolean;
+  id: string;
 }
 
 // 语言模型的设置参数
