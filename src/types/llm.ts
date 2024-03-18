@@ -1,33 +1,3 @@
-/**
- * LLM 模型
- */
-export enum LanguageModel {
-  /**
-   * GPT 3.5 Turbo
-   */
-  GPT3_5 = 'gpt-3.5-turbo',
-  GPT3_5_1106 = 'gpt-3.5-turbo-1106',
-  GPT3_5_16K = 'gpt-3.5-turbo-16k',
-  /**
-   * GPT 4
-   */
-  GPT4 = 'gpt-4',
-  GPT4_32K = 'gpt-4-32k',
-  GPT4_PREVIEW = 'gpt-4-0125-preview',
-  GPT4_VISION_PREVIEW = 'gpt-4-vision-preview',
-
-  anthropic_claude_2_0 = 'anthropic/claude-2.0',
-  // google_gemini_pro_vision = 'google/gemini-pro-vision',
-  // gryphe_mythomax_l2_13b = 'gryphe/mythomax-l2-13b',
-  /**
-   * Custom Models (OpenRouter)
-   */
-  mistralai_mistral_medium = 'mistralai/mistral-medium',
-  openai_gpt_3_5_turbo_0125 = 'openai/gpt-3.5-turbo-0125',
-  openai_gpt_4_0125_preview = 'openai/gpt-4-0125-preview',
-  openai_gpt_4_vision_preview = 'openai/gpt-4-vision-preview',
-}
-
 export interface ChatModelCard {
   description?: string;
   displayName?: string;
@@ -49,6 +19,7 @@ export interface ChatModelCard {
    * whether model is legacy (deprecated but not removed yet)
    */
   legacy?: boolean;
+  maxOutput?: number;
   tokens?: number;
   /**
    *  whether model supports vision

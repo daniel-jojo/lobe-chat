@@ -100,13 +100,17 @@
   },
   "layoutInitializing": "Inicializando layout...",
   "modelProvider": {
+    "anthropic": "Antropogênico",
     "azure": "Azure",
     "bedrock": "AWS Bedrock",
     "google": "Google",
+    "groq": "Groq",
+    "mistral": "Mistral AI",
     "moonshot": "Moonshot IA",
     "ollama": "Ollama",
     "oneapi": "One API",
     "openai": "OpenAI",
+    "openrouter": "OpenRouter",
     "perplexity": "Perplexity",
     "zhipu": "Zhipu AI"
   },
@@ -128,6 +132,13 @@
     "chat": "Chat",
     "market": "Descobrir",
     "setting": "Configuração"
+  },
+  "telemetry": {
+    "allow": "Permitir",
+    "deny": "Negar",
+    "desc": "Queremos coletar anonimamente suas informações de uso para nos ajudar a melhorar o LobeChat e oferecer uma experiência de produto melhor para você. Você pode desativar a qualquer momento em Configurações - Sobre.",
+    "learnMore": "Saiba mais",
+    "title": "Ajude o LobeChat a melhorar"
   },
   "temp": "Temporário",
   "updateAgent": "Atualizar informações do assistente",

@@ -46,6 +46,10 @@ export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
 };
 
 export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
+  anthropic: {
+    apiKey: '',
+    enabled: false,
+  },
   azure: {
     apiKey: '',
     deployments: '',
@@ -62,6 +66,14 @@ export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
     apiKey: '',
     enabled: false,
   },
+  groq: {
+    apiKey: '',
+    enabled: false,
+  },
+  mistral: {
+    apiKey: '',
+    enabled: false,
+  },
   moonshot: {
     apiKey: '',
     enabled: false,
@@ -74,6 +86,10 @@ export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
     OPENAI_API_KEY: '',
     enabled: true,
     models: [],
+  },
+  openrouter: {
+    apiKey: '',
+    enabled: false,
   },
   perplexity: {
     apiKey: '',

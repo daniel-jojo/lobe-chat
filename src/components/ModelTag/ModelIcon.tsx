@@ -1,10 +1,11 @@
 import {
-  Anthropic,
   Aws,
   Baichuan,
   ChatGLM,
+  Claude,
   Gemini,
   Gemma,
+  LLaVA,
   Meta,
   Minimax,
   Mistral,
@@ -25,9 +26,10 @@ const ModelIcon = memo<ModelIconProps>(({ model, size = 12 }) => {
 
   if (model.startsWith('gpt')) return <OpenAI size={size} />;
   if (model.startsWith('glm')) return <ChatGLM size={size} />;
-  if (model.includes('claude')) return <Anthropic size={size} />;
+  if (model.includes('claude')) return <Claude size={size} />;
   if (model.includes('titan')) return <Aws size={size} />;
   if (model.includes('llama')) return <Meta size={size} />;
+  if (model.includes('llava')) return <LLaVA size={size} />;
   if (model.includes('gemini')) return <Gemini size={size} />;
   if (model.includes('gemma')) return <Gemma.Simple size={size} />;
   if (model.includes('moonshot')) return <Moonshot size={size} />;
