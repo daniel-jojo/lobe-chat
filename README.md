@@ -261,6 +261,8 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
+<<<<<<< HEAD
+
 | Recent Submits                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Sales Description Specialist](https://chat-preview.lobehub.com/market?agent=verkauf-kleinanzeigen)<br/><sup>By **[highseen](https://github.com/highseen)** on **2024-04-30**</sup> | Assists in the sale of used items through research, pricing, description, and title creation.<br/>`product-sales` `research` `description`                                                                                                                                                                                                                                                                                                                                     |
@@ -268,7 +270,17 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 | [TailwindHelper](https://chat-preview.lobehub.com/market?agent=tailwind-helper)<br/><sup>By **[aototo](https://github.com/aototo)** on **2024-04-26**</sup>                         | TailwindHelper is a professional frontend designer with a solid foundation in design theory and rich practical experience. Created by a leading software development company, it aims to help developers and designers accelerate the development process of web interfaces. TailwindHelper is proficient in the Tailwind CSS framework and can translate complex design requirements into efficient and responsive CSS class names.<br/>`tailwindcss` `css` `tailwind-helper` |
 | [yapi JSON-SCHEMA to Typescript](https://chat-preview.lobehub.com/market?agent=yapi-ts-helper)<br/><sup>By **[zcf0508](https://github.com/zcf0508)** on **2024-04-26**</sup>        | Specializes in converting JSON schema to TypeScript types.<br/>`typescript` `development`                                                                                                                                                                                                                                                                                                                                                                                      |
 
-> 📊 Total agents: [<kbd>**244**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**244**</kbd> ](https://github.com/lobehub/lobe-chat-agents) > \=======
+> \| Recent Submits | Description |
+> \| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> \| [Dirty Talk Learning Assistant](https://chat-preview.lobehub.com/market?agent=profanity-assistant)<br/><sup>By **[cokice](https://github.com/cokice)** on **2024-04-10**</sup> | I only know how to curse, nothing else.<br/>`answer` `dirty-talk` |
+> \| [TadzGenius](https://chat-preview.lobehub.com/market?agent=tadz-genius)<br/><sup>By **[infoaitek24](https://github.com/infoaitek24)** on **2024-04-10**</sup> | Expert in business development and development practices in the Philippine market<br/>`business-development` `ai-assistant` `market-analysis` `strategic-planning` `customer-acquisition` |
+> \| [Microcontroller Engineer](https://chat-preview.lobehub.com/market?agent=with-keil-u-vision-5-c-code-explainer)<br/><sup>By **[bingjuu](https://github.com/bingjuu)** on **2024-04-10**</sup> | Proficient in interpreting embedded C code using Keil uVision 5 and Proteus<br/>`microcontroller` `c-code` `education` `interpretation` `embedded-systems` |
+> \| [Design Philosophy Analysis](https://chat-preview.lobehub.com/market?agent=sixin-design-analysis)<br/><sup>By **[YuJiaoChiu](https://github.com/YuJiaoChiu)** on **2024-04-09**</sup> | Helps you identify and analyze architectural design philosophies<br/>`arch` |
+
+> 📊 Total agents: [<kbd>**234**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+>
+> > > > > > > d5a906d701885c51a63d39142bef8817899ebc56
 
  <!-- AGENT LIST -->
 
