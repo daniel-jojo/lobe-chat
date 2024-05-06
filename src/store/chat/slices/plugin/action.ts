@@ -4,9 +4,8 @@ import { Md5 } from 'ts-md5';
 import { StateCreator } from 'zustand/vanilla';
 
 import { PLUGIN_SCHEMA_API_MD5_PREFIX, PLUGIN_SCHEMA_SEPARATOR } from '@/const/plugin';
-import { CreateMessageParams } from '@/database/models/message';
 import { chatService } from '@/services/chat';
-import { messageService } from '@/services/message';
+import { CreateMessageParams, messageService } from '@/services/message';
 import { ChatStore } from '@/store/chat/store';
 import { useToolStore } from '@/store/tool';
 import { pluginSelectors } from '@/store/tool/selectors';
@@ -50,7 +49,7 @@ export const chatPlugin: StateCreator<
       topicId: get().activeTopicId, // if there is activeTopicId，then add it to topicId
     };
 
-    await messageService.create(newMessage);
+    await messageService.createMessage(newMessage);
     await get().refreshMessages();
   },
 
@@ -175,7 +174,7 @@ export const chatPlugin: StateCreator<
   triggerAIMessage: async (id, traceId) => {
     const { coreProcessMessage } = get();
     const chats = chatSelectors.currentChats(get());
-    await coreProcessMessage(chats, id, traceId);
+    await coreProcessMessage(chats, id, { traceId });
   },
 
   triggerFunctionCall: async (id) => {
