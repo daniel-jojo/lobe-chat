@@ -215,14 +215,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- PLUGIN LIST -->
 
-| 最近新增                                                                                                                 | 插件描述                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| [Search1API](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>           | 搜索聚合服务，专为 LLMs 设计<br/>`web` `search`                                          |
-| [社交搜索](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-05-02**</sup>             | 社交搜索提供访问推文、用户、关注者、图片、媒体等功能。<br/>`社交` `推特` `x` `搜索`      |
-| [通过 Serper 搜索 Google](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **Barry** on **2024-04-30**</sup> | 通过 Serper.dev 免费 API 进行 Google 搜索引擎（每月 2500 次🆓）<br/>`网络` `搜索`        |
-| [NFT Guru](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **swap** on **2024-04-03**</sup>                 | 发现主要平台上 NFT 的当前价格，并通过实时跟踪快速变化的市场了解情况<br/>`加密货币` `nft` |
+| 最近新增                                                                                                                 | 插件描述                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| [社交搜索](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-06-02**</sup>             | 社交搜索提供访问推文、用户、关注者、图片、媒体等功能。<br/>`社交` `推特` `x` `搜索` |
+| [空间](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **automateyournetwork** on **2024-05-12**</sup>      | 包括 NASA 的空间数据。<br/>`空间` `nasa`                                            |
+| [Search1API](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>           | 搜索聚合服务，专为 LLMs 设计<br/>`web` `search`                                     |
+| [通过 Serper 搜索 Google](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **Barry** on **2024-04-30**</sup> | 通过 Serper.dev 免费 API 进行 Google 搜索引擎（每月 2500 次🆓）<br/>`网络` `搜索`   |
 
-> 📊 Total plugins: [<kbd>**57**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**55**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -250,14 +250,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- AGENT LIST -->
 
-| 最近新增                                                                                                                                                                         | 助手说明                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [视频转博客文章助手](https://chat-preview.lobehub.com/market?agent=video-2-blog-assistant)<br/><sup>By **[yayoinoyume](https://github.com/yayoinoyume)** on **2024-05-06**</sup> | 帮你快速整理缭乱的字幕，变成精美的博客文章<br/>`字幕整理` `博文格式` `视频变博客`                                                                              |
-| [美术评价导师](https://chat-preview.lobehub.com/market?agent=wanwusheng-art)<br/><sup>By **[dingyufei615](https://github.com/dingyufei615)** on **2024-05-06**</sup>             | 擅长少儿美术教学，细致评价作品，关注细节，适应不同年龄段学生。<br/>`美术教育` `评价` `创意` `教学` `绘画`                                                      |
-| [iOS 代码艺术家](https://chat-preview.lobehub.com/market?agent=ios-develop)<br/><sup>By **[Alcu1n](https://github.com/Alcu1n)** on **2024-05-03**</sup>                          | iOS 开发专家，15 年经验，精通 Swift、SwiftUI、Flutter。逻辑清晰的代码，精准 debug，提供 0 到 1 的项目框架。<br/>`i-os开发` `编码` `调试` `项目规划` `逻辑思维` |
-| [销售描述专家](https://chat-preview.lobehub.com/market?agent=verkauf-kleinanzeigen)<br/><sup>By **[highseen](https://github.com/highseen)** on **2024-04-30**</sup>              | 通过研究、定价、描述和标题设计帮助销售二手物品。<br/>`产品销售` `研究` `描述`                                                                                  |
+| 最近新增                                                                                                                                                                              | 助手说明                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [审稿回复专家](https://chat-preview.lobehub.com/market?agent=academic-editor-en)<br/><sup>By **[Starlitnightly](https://github.com/Starlitnightly)** on **2024-06-03**</sup>          | 擅长自然学术编辑，协助作者回复审稿人意见，科学、礼貌、逐点回应。<br/>`学术编辑` `审稿意见回复` `科学写作`             |
+| [小说翻译 英译中](https://chat-preview.lobehub.com/market?agent=noveltranslation)<br/><sup>By **[xbtachlb](https://github.com/xbtachlb)** on **2024-06-03**</sup>                     | 小说二次翻译<br/>`翻译`                                                                                               |
+| [Docker 转 DockerCompose](https://chat-preview.lobehub.com/market?agent=onekr-docker-2-compose)<br/><sup>By **[onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup> | 擅长将 Docker run 命令转换为 Docker Compose 配置<br/>`docker` `docker-compose` `系统运维` `配置文件` `转换`           |
+| [Java Class 转 MySQL](https://chat-preview.lobehub.com/market?agent=onekr-java-2-sql)<br/><sup>By **[onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup>           | 擅长根据 Java 类文件生成符合 MySQL 规范的 SQL 脚本<br/>`java-class转-my-sql` `后端开发` `sql脚本` `数据转换` `数据库` |
 
-> 📊 Total agents: [<kbd>**247**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**285**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
