@@ -12,6 +12,12 @@
   "copy": "نسخ",
   "copyFail": "فشل في النسخ",
   "copySuccess": "تم النسخ بنجاح",
+  "dataStatistics": {
+    "messages": "رسائل",
+    "sessions": "جلسات",
+    "today": "اليوم",
+    "topics": "مواضيع"
+  },
   "defaultAgent": "مساعد افتراضي",
   "defaultSession": "جلسة افتراضية",
   "delete": "حذف",
@@ -52,6 +58,7 @@
     },
     "title": "استيراد البيانات"
   },
+  "installPWA": "تثبيت تطبيق المتصفح",
   "lang": {
     "ar": "العربية",
     "bg-BG": "البلغارية",
@@ -163,6 +170,7 @@
   "userPanel": {
     "anonymousNickName": "مستخدم مجهول",
     "billing": "إدارة الفواتير",
+    "data": "تخزين البيانات",
     "defaultNickname": "مستخدم النسخة المجتمعية",
     "discord": "الدعم المجتمعي",
     "docs": "وثائق الاستخدام",

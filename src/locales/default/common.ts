@@ -11,8 +11,13 @@ export default {
   close: '关闭',
   copy: '复制',
   copyFail: '复制失败',
-
   copySuccess: '复制成功',
+  dataStatistics: {
+    messages: '消息',
+    sessions: '助手',
+    today: '今日新增',
+    topics: '话题',
+  },
   defaultAgent: '自定义助手',
   defaultSession: '自定义助手',
   delete: '删除',
@@ -54,6 +59,7 @@ export default {
     },
     title: '导入数据',
   },
+  installPWA: '安装浏览器应用 (PWA)',
   lang: {
     'ar': '阿拉伯语',
     'bg-BG': '保加利亚语',
@@ -133,13 +139,13 @@ export default {
     title: '同步状态',
     unconnected: { tip: '信令服务器连接失败，将无法建立点对点通信频道，请检查网络后重试' },
   },
+
   tab: {
     chat: '会话',
     market: '发现',
     me: '我',
     setting: '设置',
   },
-
   telemetry: {
     allow: '允许',
     deny: '拒绝',
@@ -158,6 +164,7 @@ export default {
   userPanel: {
     anonymousNickName: '匿名用户',
     billing: '账单管理',
+    data: '数据存储',
     defaultNickname: '社区版用户',
     discord: '社区支持',
     docs: '使用文档',

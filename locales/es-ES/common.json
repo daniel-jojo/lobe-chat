@@ -12,6 +12,12 @@
   "copy": "Copiar",
   "copyFail": "Fallo al copiar",
   "copySuccess": "¡Copia exitosa!",
+  "dataStatistics": {
+    "messages": "Mensajes",
+    "sessions": "Sesiones",
+    "today": "Hoy",
+    "topics": "Temas"
+  },
   "defaultAgent": "Asistente predeterminado",
   "defaultSession": "Sesión predeterminada",
   "delete": "Eliminar",
@@ -52,6 +58,7 @@
     },
     "title": "Importar datos"
   },
+  "installPWA": "Instalar la aplicación del navegador",
   "lang": {
     "ar": "árabe",
     "bg-BG": "búlgaro",
@@ -163,6 +170,7 @@
   "userPanel": {
     "anonymousNickName": "Usuario Anónimo",
     "billing": "Gestión de facturación",
+    "data": "Almacenamiento de datos",
     "defaultNickname": "Usuario de la comunidad",
     "discord": "Soporte de la comunidad",
     "docs": "Documentación de uso",
