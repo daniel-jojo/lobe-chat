@@ -80,13 +80,14 @@ export const chatTopic: StateCreator<
     const { activeId, internal_createTopic } = get();
 
     const messages = chatSelectors.currentChats(get());
+
+    set({ creatingTopic: true }, false, n('creatingTopic/start'));
     const topicId = await internal_createTopic({
       sessionId: activeId,
       title: t('topic.defaultTitle', { ns: 'chat' }),
       messages: messages.map((m) => m.id),
     });
-
-    // get().internal_updateTopicLoading(topicId, true);
+    set({ creatingTopic: false }, false, n('creatingTopic/end'));
 
     return topicId;
   },
@@ -248,7 +249,7 @@ export const chatTopic: StateCreator<
 
     // remove messages in the topic
     // TODO: Need to remove because server service don't need to call it
-    await messageService.removeMessages(activeId, id);
+    await messageService.removeMessagesByAssistant(activeId, id);
 
     // remove topic
     await topicService.removeTopic(id);

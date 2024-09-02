@@ -6,6 +6,7 @@ import { SessionGroupModel } from '@/database/client/models/sessionGroup';
 import { UserModel } from '@/database/client/models/user';
 import { useUserStore } from '@/store/user';
 import { LobeAgentChatConfig, LobeAgentConfig } from '@/types/agent';
+import { MetaData } from '@/types/meta';
 import {
   ChatSessionList,
   LobeAgentSession,
@@ -14,6 +15,7 @@ import {
   SessionGroupItem,
   SessionGroups,
 } from '@/types/session';
+import { merge } from '@/utils/merge';
 
 import { ISessionService } from './type';
 
@@ -93,7 +95,9 @@ export class ClientService implements ISessionService {
     data: Partial<Pick<LobeAgentSession, 'group' | 'meta' | 'pinned'>>,
   ) {
     const pinned = typeof data.pinned === 'boolean' ? (data.pinned ? 1 : 0) : undefined;
-    return SessionModel.update(id, { ...data, pinned });
+    const prev = await SessionModel.findById(id);
+
+    return SessionModel.update(id, merge(prev, { ...data, pinned }));
   }
 
   async updateSessionConfig(
@@ -109,6 +113,18 @@ export class ClientService implements ISessionService {
     }
 
     return SessionModel.updateConfig(activeId, config);
+  }
+
+  async updateSessionMeta(
+    activeId: string,
+    meta: Partial<MetaData>,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    _?: AbortSignal,
+  ) {
+    // inbox 不允许修改 meta
+    if (activeId === INBOX_SESSION_ID) return;
+
+    return SessionModel.update(activeId, { meta });
   }
 
   async updateSessionChatConfig(
